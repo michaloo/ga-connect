@@ -1,0 +1,21 @@
+{
+  "name": "ga-connect",
+  "version": "0.0.5",
+  "description": "Connect middleware inserting Google Analytics snippet",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/ga.js"
+  },
+  "repository": "https://github.com/michaloo/ga-connect.git",
+  "author": "Michal Raczka <me@michaloo.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "connect": "^3.3.3",
+    "serve-static": "^1.7.1",
+    "supertest": "^0.15.0"
+  },
+  "dependencies": {
+    "harmon": "^1.1.0",
+    "utils-merge": "^1.0.0"
+  }
+}

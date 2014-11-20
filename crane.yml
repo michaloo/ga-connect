@@ -1,0 +1,10 @@
+containers:
+  connect-ga_it:
+    image: michaloo/node
+    run:
+      volume: [".:/connect-ga"]
+      workdir: /connect-ga
+      interactive: true
+      tty: true
+      rm: true
+      env-file: [".env"]
